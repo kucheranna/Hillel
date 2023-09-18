@@ -1,5 +1,8 @@
 
+body {background-color: rgb(250, 250, 235);}
 h1 {text-align: center;   font-size: 72px; color:rgb(211, 160, 101); font-weight: 800px; font-style: italic;}
+.first {align-items: center;}
+
 
 
 .button {
