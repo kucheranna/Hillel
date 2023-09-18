@@ -1,0 +1,25 @@
+
+h1 {text-align: center;   font-size: 72px; color:rgb(211, 160, 101); font-weight: 800px; font-style: italic;}
+
+
+.button {
+    margin-left: 1100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #b88d65;
+    border: 1px;
+    border-radius: 15px;
+      }
+  
+  .button:hover {background-color: #e4c880}
+  
+  .button:active {
+    background-color: #c39a4a;
+    box-shadow: 0 5px #d8cccc;
+    transform: translateY(4px);
+  }

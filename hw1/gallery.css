@@ -1,0 +1,24 @@
+h1 {text-align: center;   font-size: 72px; color:rgb(211, 160, 101); font-weight: 800px; font-style: italic;}
+h2 {text-align: center;  font-size: 72px; color:rgb(136, 114, 90); font-weight: 800px; font-style: italic;}
+.gallery {margin-left: 30px;
+    margin-right: 30px;}
+
+    .button {
+        border-radius: 10px;
+        background-color: #d8b0a4;
+        border: none;
+        color: #d0d0d0;
+        
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        width: 200px;
+        height: 50px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 10px;
+      }
+      
+      
+      
+
