@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="./index.css" rel="stylesheet" />
-    <script type="text/javascript">
-       function burgerMenu(icon) {
-    icon.classList.toggle("change");
-  }
-        </script>
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="burger" onclick="burgerMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
+        <div class="burger"
+            onclick="burgerMenu(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  <script type="text/javascript">
+    function burgerMenu(icon) {
+  icon.classList.toggle("change");
+}
+    </script>
+        </div>
         <div class="head-logo">
           <a href="./index.html" class="header-logo">
             <img class="logo" src="./images/Harrods_logo.svg" />

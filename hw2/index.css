@@ -15,15 +15,16 @@ header{
     position: relative;
     display: flex;
     align-items: center;
-    width: auto;
+    max-width: 1366px;
     height: 180px;
-    padding: 10px 10px;   
+    padding: 10px 10px; 
+    margin: 10px;  
 }
 .burger {
-    display: block;
-    position: relative;
+    width: 160px;
+    justify-content: center;
+    margin: 40px;
     height: auto;
-    margin: 5%;
     transform: translate(-50%, -50%);
     cursor: pointer;
   }
@@ -87,9 +88,8 @@ header{
     display: flex;
     align-items: center;
     column-gap: 20px;
-    width: 160px;
+    width: 20%;
 }
-
 .icon-wrap {
     width: 20px;
     height: 20px;
@@ -116,9 +116,9 @@ header{
     height: auto;
     flex-wrap: wrap;
     display: flex;
-    justify-content: center;
-    align-items: center;
     
+    justify-content: center;
+    align-items: center;  
 }
 div[class*=box] {
     height: 33.33%;
@@ -127,7 +127,6 @@ div[class*=box] {
   .box { margin: 20px;
 background-color: rgb(203, 163, 112); 
 }
-  
   .btn {
     line-height: 50px;
     height: 50px;
@@ -225,7 +224,6 @@ background-color: rgb(203, 163, 112);
     border: 2px solid rgba(255,255,255,0.5);
     border-radius: 5%;
   }
-
 
 .card-img {
     text-align: center;
