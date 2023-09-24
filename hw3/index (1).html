@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-1">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+      </div>
+
+      <div class="container-2">
+        <div class="box1">1</div>
+        <div class="boxxx">
+          <div class="box2">2</div>
+          <div class="box3">3</div>
+          <div class="box4">4</div>
+          <div class="box5">5</div>
+        </div>
+      </div>
+
+      <div class="container-3">
+        <div class="left">
+          <div class="box1">1</div>
+          <div class="box2">2</div>
+        </div>
+        <div class="right">
+          <div class="box3">3</div>
+          <div class="box4">4</div>
+        </div>
+      </div>
+
+      <style>
+        .container {
+          width: auto;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .container-1,
+        .container-2,
+        .container-3 {
+          display: block;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          border: 5px solid red;
+          height: 200px;
+          width: 1000px;
+        }
+        .container-2 .boxxx {
+          float: right;
+        }
+        .container-1 .box1 {
+          float: left;
+        }
+        .container-1 .box2 {
+          float: right;
+        }
+        .container-2 .box1 {
+          float: left;
+        }
+        .container-2 .box2 {
+          width: 100px;
+          height: 100px;
+        }
+        .container-2 .box3 {
+          width: 100px;
+          height: 100px;
+        }
+        .container-2 .box4 {
+          width: 100px;
+          height: 100px;
+        }
+        .container-2 .box5 {
+          width: 100px;
+          height: 100px;
+        }
+
+        .container-3 .left {
+          float: left;
+          margin: auto;
+        }
+        .container-3 .right {
+          float: right;
+          margin: auto;
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5 {
+          width: 200px;
+          height: 200px;
+          display: inline-block;
+          background-color: #fc8f8f;
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+        }
+        .container-3 .box1 {
+          display: inline-block;
+        }
+        .container-3 .box2 {
+          display: inline-block;
+        }
+        .container-3 .box3 {
+          display: inline-block;
+        }
+        .container-3 .box4 {
+          display: inline-block;
+        }
+      </style>
+    </div>
+  </body>
+</html>
