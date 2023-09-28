@@ -3,62 +3,46 @@
     font-weight: normal;
     src: url(./Roboto/Roboto-Regular.ttf);
 }
-
-
-
 .main{
     background: #EEEFF1;
 }
-.header{
-padding: auto;
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .topblock{
-display: block;
-margin: 0 auto;
-height: auto;
-
+padding-left: 100px;
 }
 .menu{
-position: relative;
 padding-top: 20px;
-margin-left: 30%;
-color: var(--Accent, #34547A);
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 164.063%;
 letter-spacing: 1.6px;
 text-transform: uppercase;
 }
-ul{
-padding: 0;
-display: flex;
+
+.nav{
+display: inline-block;
+margin-right: 42px;
 }
-ul li{
-    margin-right: 42px;
-    padding-left: 0;
-    list-style-type: none; 
-}
-a {
+.anav {
 text-decoration: none;
 color: #34547A;}
 
 .banner{
-    position: relative;
-    margin-left: 30%;
-    padding-top: 112px;
-    width: 540px;
+width: 800px;
 }
 
 .h2banner{
-padding: 0;
+padding-top: 100px;
+padding-bottom: 60px;
 color: black;
 font-family: Roboto;
 font-size: 48px;
 font-style: bold;
 font-weight: 500;
-
 }
 .parbanner{
 color: #727272;
@@ -83,29 +67,26 @@ margin-bottom: 140px;
 text-transform: uppercase;
 }
 .middle{
-    background: #F9F9F9;
-    padding-top: 112px;
-    padding-bottom: 80px;
-    padding: auto;
-    height: auto;
-    display: block;
-    margin: auto;
+background: #F9F9F9;
+height: auto;
+
   
 }
 .middletext{
-    width: 540px;
-margin: auto;
+padding-top: 112px;
+padding-bottom: 80px;
+width: 800px;
+margin: 0 auto;
 
 }
 .h3middle{
 text-align: center;
-width: auto;
 color: #000;
 font-family: Roboto;
 font-size: 32px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
+padding-bottom: 40px;
 }
 .pmiddle{
 color: #727272;
@@ -117,31 +98,27 @@ font-weight: 400;
 line-height: 164.063%;
 }
 .cardsbanner{
-    background: var(--Accent, #34547A);
-    height: auto;
+background: var(--Accent, #34547A);
+}
+.cardsblock{
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-   
-    
-}
-.cards{
-    justify-content: center;
-    display: flex;
-    
-
+    width: 800px;
+    margin: 0 auto;
 }
 .card{
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 110px;
     height: auto;
-   display: block;
+    display: inline-block;
+    text-align: center;
 }
 .cardimage{
 width: 50px;
 height: 50px;
 float: left;
-margin: 0 10px 0 0;
+margin-right: 10px;
 
 }
 .cardtsext{
@@ -150,12 +127,13 @@ width: 50px;
 
 }
 .catdtitle{
+padding-top: 5px;
+padding-bottom: 10px;
 color: #FFF;
 font-family: Roboto;
 font-size: 18px;
 font-weight: 500;
-padding: 0;
-margin: 0;
+text-align: left;
 
 }
 .carddescr{
@@ -163,23 +141,17 @@ color: #FFF;
 font-family: Roboto;
 font-size: 12px;
 font-weight: 400;
-}
-.videoblock{
-    width: 100%;
-
+text-align: left;
 }
 .videoblockcontent{
-    max-width: 1200px;
-    margin: 0 auto;
-    
-   
+    width: 800px;
+    margin: 0 auto;  
 }
 .h2video{
-    color: #000;
+   color: #000;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
-
 font-family: Roboto;
 font-size: 32px;
 font-style: normal;
@@ -187,14 +159,13 @@ font-weight: 500;
 line-height: normal;
 }
 .parvideo{
-    width: 540px;
+   width: 540px;
     margin: 0 auto;
     margin-bottom: 60px;
 
 }
 .pvideo{
-
-    color: #727272;
+color: #727272;
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
@@ -202,30 +173,27 @@ font-style: normal;
 font-weight: 400;
 line-height: 164.063%;
 }
-iframe{
-    margin: 0 auto;
+.videoframe {
+
     width: 800px;
     height: 400px;
-    display: block;
     margin-bottom: 100px;
 }
 footer{
-    width: 100%;
     background: var(--Accent, #34547A);
 }
 .footerblock{
-    max-width: 1000px;
-    margin: 0 auto;
+   margin: 0 auto;
+   width: 800px;
 }
 .footercontent{
-    padding-top: 50px;
+   padding-top: 50px;
     padding-bottom: 50px;
 
 }
 .pfooter{
     color: #FFF;
-    /* h3 */
-    font-family: Roboto;
+   font-family: Roboto;
     font-size: 21px;
     font-style: normal;
     font-weight: 500;
