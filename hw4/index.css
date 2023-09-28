@@ -179,7 +179,7 @@ line-height: 164.063%;
 footer{
     background: var(--Accent, #34547A);
 }
-.footercontent{
+.footerblock{
    padding-top: 50px;
     padding-bottom: 50px;
     margin: 0 auto;
