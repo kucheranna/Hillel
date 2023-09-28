@@ -3,12 +3,13 @@
     font-weight: normal;
     src: url(./Roboto/Roboto-Regular.ttf);
 }
-.container{
+.main{
     background: #EEEFF1;
 }
-.topblock{
-width: 800px;
+.container{
+width: 1200px;
 margin: 0 auto;
+height: auto;
 }
 .menu{
 padding-top: 20px;
@@ -28,10 +29,6 @@ margin-right: 42px;
 text-decoration: none;
 color: #34547A;}
 
-.banner{
-width: 800px;
-}
-
 .h2banner{
 padding-top: 100px;
 padding-bottom: 60px;
@@ -42,6 +39,7 @@ font-style: bold;
 font-weight: 500;
 }
 .parbanner{
+width: 800px;
 color: #727272;
 margin-bottom: 65px;
 font-family: Roboto;
@@ -64,17 +62,11 @@ margin-bottom: 140px;
 text-transform: uppercase;
 }
 .middle{
+margin: 0 auto;
 background: #F9F9F9;
 height: auto;
-
-  
-}
-.middletext{
 padding-top: 112px;
 padding-bottom: 80px;
-width: 800px;
-margin: 0 auto;
-
 }
 .h3middle{
 text-align: center;
@@ -86,8 +78,8 @@ font-weight: 500;
 padding-bottom: 40px;
 }
 .pmiddle{
+    text-align: center;
 color: #727272;
-text-align: center;
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -96,20 +88,20 @@ line-height: 164.063%;
 }
 .cardsbanner{
 background: var(--Accent, #34547A);
+padding-top: 100px;
+padding-bottom: 100px;
+margin: 0 auto;
+text-align: center;
+
 }
-.cardsblock{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    width: 800px;
-    margin: 0 auto;
-}
+
 .card{
     padding-top: 5px;
     padding-bottom: 5px;
     width: 110px;
     height: auto;
     display: inline-block;
-    text-align: center;
+
 }
 .cardimage{
 width: 50px;
@@ -140,13 +132,21 @@ font-size: 12px;
 font-weight: 400;
 text-align: left;
 }
+.videoblock{
+    text-align: center;
+    margin: 0 auto;
+
+}
 .videoblockcontent{
-    width: 800px;
     margin: 0 auto;  
+    padding-top: 100px;
+padding-bottom: 100px;
+height: auto;
+
 }
 .h2video{
    color: #000;
-    text-align: center;
+   
     margin-top: 100px;
     margin-bottom: 50px;
 font-family: Roboto;
@@ -156,9 +156,9 @@ font-weight: 500;
 line-height: normal;
 }
 .parvideo{
-   width: 540px;
+   width: 800px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 
 }
 .pvideo{
@@ -171,22 +171,18 @@ font-weight: 400;
 line-height: 164.063%;
 }
 .videoframe {
-
+    margin: 0 auto;
     width: 800px;
     height: 400px;
-    margin-bottom: 100px;
+    margin: 50px auto 50px auto;
 }
 footer{
     background: var(--Accent, #34547A);
 }
-.footerblock{
-   margin: 0 auto;
-   width: 800px;
-}
 .footercontent{
    padding-top: 50px;
     padding-bottom: 50px;
-
+    margin: 0 auto;
 }
 .pfooter{
     color: #FFF;
