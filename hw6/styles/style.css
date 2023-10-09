@@ -94,9 +94,6 @@ body{
     background-repeat: no-repeat;
     padding: 190px 0;
 }
-.slider-wrapper-container{
-    
-}
 .slider-wrapper-title{
 color: #FFF;
 font-family: Roboto;
@@ -332,7 +329,7 @@ line-height: 28px;
 }
 .icon:hover{
     cursor: pointer;
-    
+
 }
 .call-back:hover{
     background-color: #F13C6E;
