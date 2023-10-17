@@ -1,0 +1,104 @@
+@import url(./variables.scss);
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    }
+.first-wrapper{
+    background-color: $primary-background-color;
+}
+.menu{
+  padding-top: 20px;
+}
+.list{
+    display: flex;
+
+}
+.list-link{
+    color: $text-color-black;
+    padding: 10px 0;
+}
+.list-item{
+    margin-right: 40px;
+}
+.banner-container{
+    padding: 50px 0;
+
+}
+.banner-container__title{
+    font-size: $font-size-big;
+    color: $text-color-black;
+
+}
+.banner-container__text{
+    margin-top: 20px;
+    color: $text-color-grey;
+    font-size: $font-size-small;
+}
+.btn-banner{
+    background-color: $button-background-color;
+    color: $text-color-white;
+    font-size: $font-size-small;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    margin-bottom:100px; 
+}
+.second-wrapper{
+    background-color: $secondary-background-color;
+
+}
+.banner-container_center{
+    text-align: center;
+
+}
+.banner-container__title_center{
+font-size: $font-size-medium;
+}
+.third-wrapper{
+    background-color: $button-background-color;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.card{
+    display: flex;
+    padding: 3px;
+}
+.card-image{
+margin-right: 10px;
+}
+.card-title{
+    font-size: 18px;
+    color: $text-color-white;
+    margin-bottom: 10px;
+}
+.card-descr{
+    font-size: $font-size-small;
+    color: $text-color-white;
+}
+.fourth-wrapper{
+    background-color: $primary-background-color;
+}
+.video-container{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.footer-wrapper{
+    background-color: $button-background-color;
+}
+.footer-text{
+    padding: 20px 0;
+}
+.footer-copyright-title{
+    color: $text-color-white;
+    font-size: 18px;
+
+}
+.footer-copyright-text{
+    color: $text-color-white;
+    font-size: $font-size-small;
+    margin-top: 10px;
+}
