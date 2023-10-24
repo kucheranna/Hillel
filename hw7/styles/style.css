@@ -1,54 +1,55 @@
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.first-wrapper {
+.header {
   background-color: #EEEFF1;
 }
 
 .menu {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
-.list {
+.menu__list {
   display: flex;
 }
 
-.list-link {
+.menu__link {
   color: #000;
   padding: 10px 0;
 }
 
-.list-item {
+.menu__item {
   margin-right: 40px;
 }
 
-.banner-container {
-  padding: 50px 0;
+.banner {
+  margin: 50px 0;
 }
 
-.banner-container__title {
+.banner__title {
   font-size: 48px;
   color: #000;
 }
 
-.banner-container__text {
+.banner__text {
   margin-top: 20px;
   color: rgb(114, 114, 114);
   font-size: 16px;
 }
 
-.btn-banner {
+.banner__button {
   background-color: #34547A;
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-transform: uppercase;
   padding: 12px 24px;
   margin-bottom: 100px;
+  border-radius: 30px;
 }
 
-.second-wrapper {
+.banner-center {
   background-color: #FFF;
 }
 
@@ -56,41 +57,41 @@
   text-align: center;
 }
 
-.banner-container__title_center {
+.banner__title_center {
   font-size: 32px;
 }
 
-.third-wrapper {
+.card-block-wrapper {
   background-color: #34547A;
 }
 
-.cards {
+.cards-block {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
 }
 
-.card {
+.cards-block__card {
   display: flex;
   padding: 3px;
 }
 
-.card-image {
+.cards-block__image {
   margin-right: 10px;
 }
 
-.card-title {
+.cards-block__title {
   font-size: 18px;
   color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
 
-.card-descr {
+.cards-block__description {
   font-size: 16px;
   color: rgb(255, 255, 255);
 }
 
-.fourth-wrapper {
+.video-block-wrapper {
   background-color: #EEEFF1;
 }
 
@@ -103,16 +104,16 @@
   background-color: #34547A;
 }
 
-.footer-text {
+.footer {
   padding: 20px 0;
 }
 
-.footer-copyright-title {
+.footer__title {
   color: rgb(255, 255, 255);
   font-size: 18px;
 }
 
-.footer-copyright-text {
+.footer__text {
   color: rgb(255, 255, 255);
   font-size: 16px;
   margin-top: 10px;

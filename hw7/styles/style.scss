@@ -1,50 +1,52 @@
-@import url(./variables.scss);
+@import "./variables.scss";
 
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     }
-.first-wrapper{
+.header{
     background-color: $primary-background-color;
 }
 .menu{
-  padding-top: 20px;
+  padding-top: 30px;
 }
-.list{
+.menu__list{
     display: flex;
 
 }
-.list-link{
+.menu__link{
     color: $text-color-black;
     padding: 10px 0;
 }
-.list-item{
+.menu__item{
     margin-right: 40px;
 }
-.banner-container{
-    padding: 50px 0;
+.banner{
+    margin: 50px 0;
 
 }
-.banner-container__title{
+.banner__title{
     font-size: $font-size-big;
     color: $text-color-black;
+    
 
 }
-.banner-container__text{
+.banner__text{
     margin-top: 20px;
     color: $text-color-grey;
     font-size: $font-size-small;
 }
-.btn-banner{
+.banner__button{
     background-color: $button-background-color;
     color: $text-color-white;
     font-size: $font-size-small;
     text-transform: uppercase;
     padding: 12px 24px;
     margin-bottom:100px; 
+    border-radius: 30px;
 }
-.second-wrapper{
+.banner-center{
     background-color: $secondary-background-color;
 
 }
@@ -52,34 +54,34 @@
     text-align: center;
 
 }
-.banner-container__title_center{
+.banner__title_center{
 font-size: $font-size-medium;
 }
-.third-wrapper{
+.card-block-wrapper{
     background-color: $button-background-color;
 }
-.cards{
+.cards-block{
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
 }
-.card{
+.cards-block__card{
     display: flex;
     padding: 3px;
 }
-.card-image{
+.cards-block__image{
 margin-right: 10px;
 }
-.card-title{
+.cards-block__title{
     font-size: 18px;
     color: $text-color-white;
     margin-bottom: 10px;
 }
-.card-descr{
+.cards-block__description{
     font-size: $font-size-small;
     color: $text-color-white;
 }
-.fourth-wrapper{
+.video-block-wrapper{
     background-color: $primary-background-color;
 }
 .video-container{
@@ -89,15 +91,15 @@ margin-right: 10px;
 .footer-wrapper{
     background-color: $button-background-color;
 }
-.footer-text{
+.footer{
     padding: 20px 0;
 }
-.footer-copyright-title{
+.footer__title{
     color: $text-color-white;
     font-size: 18px;
 
 }
-.footer-copyright-text{
+.footer__text{
     color: $text-color-white;
     font-size: $font-size-small;
     margin-top: 10px;

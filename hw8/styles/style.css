@@ -17,58 +17,57 @@
 }
 
 .menu__link {
+  display: flex;
   color: #000;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .menu__item {
   margin-right: 40px;
-  display: flex;
-  align-items: center;
 }
 
-.menu__item_home::before {
+.homepage-link::before {
   content: "";
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
   background-image: url(../pictures/10886806321581426690.svg);
 }
 
-.menu__item_author::before {
+.about-link::before {
   content: "";
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
   background-image: url(../pictures/7242953181586787868.svg);
 }
 
-.menu__item_works::before {
+.works-link::before {
   content: "";
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
   background-image: url(../pictures/15953164891594941301.svg);
 }
 
-.menu__item_process::before {
+.process-link::before {
   content: "";
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
   background-image: url(../pictures/1222766371530177264.svg);
 }
 
-.menu__item_contacts::before {
+.contacts-link::before {
   content: "";
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 20px;
+  display: flex;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
   background-image: url(../pictures/13220726531607043059.svg);
 }
 
