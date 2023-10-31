@@ -1,0 +1,117 @@
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.grid{
+  display: grid;
+  grid-template-rows: repeat(4, 50px) ;
+  grid-template-columns: repeat(6, minmax(200px,auto))   ;
+  grid-template-areas: "navigation navigation navigation navigation sidebar sidebar" 
+  "list list list  image sidebar sidebar"
+  "filter1 product1 product2 image sidebar sidebar"
+  "filter2 product1 product2 image contacts contacts";
+  gap: 5px;
+}
+
+.item_navigation{
+    background-color: rgb(246, 246, 102);
+    grid-area: navigation;
+}
+.item_sidebar{
+    background-color: rgb(246, 246, 102);
+    grid-area: sidebar;
+
+}
+.item_list{
+    background-color: rgb(238, 131, 98);
+    grid-area: list;
+}
+.item_product1{
+    background-color: rgb(238, 131, 98);
+    grid-area: product1;
+}
+.item_filter1{
+    background-color: rgb(252, 148, 44);
+    grid-area: filter1;
+}
+.item_product2{
+    background-color: rgb(252, 148, 44);
+    grid-area: product2;
+}
+.item_filter2{
+    background-color: lightgreen;
+    grid-area: filter2;
+}
+.item_contacts{
+    background-color: lightgreen;
+    grid-area: contacts;
+}
+.item_image{
+    background-color: rgb(20, 172, 20);
+    grid-area: image;
+}
+@media screen and (max-width:1250px) { 
+    .grid{
+    grid-template-areas: "navigation navigation navigation navigation" 
+    "sidebar sidebar sidebar contacts"
+    "sidebar sidebar sidebar contacts"
+    "list list list image"
+    "filter1 product1 product2 image"
+    "filter2 product1 product2 image";
+   
+    grid-template-rows: repeat(6, 50px) ;
+  grid-template-columns: repeat(4, minmax(200px,auto));
+}
+    
+    
+}
+@media screen and (max-width:850px) { 
+    .grid{
+    grid-template-areas: "navigation navigation "
+    "navigation navigation" 
+    "sidebar sidebar"
+    "sidebar sidebar"
+    "contacts contacts"
+    "list list"
+    "filter1 filter2 "
+    "product1 product2"
+    "product1 product2 "
+    "image image";
+   
+    grid-template-rows: repeat(10, 50px) ;
+  grid-template-columns: repeat(2, minmax(200px,auto));
+}
+    
+    
+}
+@media screen and (max-width:450px) { 
+    .grid{
+    grid-template-areas: 
+    "navigation"
+    "navigation"
+    "navigation"
+    "navigation" 
+    "sidebar" 
+    "sidebar"
+    "sidebar" 
+    "sidebar"
+    "contacts" 
+    "contacts"
+    "list"
+    "list"
+    "filter1"
+    "product1" 
+    "product1"
+    "filter2 "
+    "product2" 
+    "product2"
+    "image" 
+    "image";
+   
+    grid-template-rows: repeat(20, 50px) ;
+  grid-template-columns: repeat(1, minmax(200px,auto));
+}
+    
+    
+}
